@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             background: url('images/mystery-pattern.jpg') repeat;
-            background-size: 150px; /* Adjust size for pattern effect */
+            background-size: 150px;
             text-align: center;
             margin: 0;
             padding: 20px;
@@ -44,6 +44,32 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            width: 25%;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ccc;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        td.empty {
+            color: #999;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -61,6 +87,48 @@
 
         <!-- Mystery Club Image -->
         <img src="images/mystery-club.jpg" alt="Mystery Club" class="mystery-image">
+
+        <!-- Club Members Table -->
+        <h2>Club Members</h2>
+        <table>
+            <tr>
+                <td>Anita Sikaria</td>
+                <td>Kaira Kohli</td>
+                <td>Hemant Sikaria</td>
+                <td>Sonia Sikaria</td>
+            </tr>
+            <tr>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+            </tr>
+            <tr>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+            </tr>
+            <tr>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+            </tr>
+            <tr>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+            </tr>
+            <tr>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+                <td class="empty">Vacant</td>
+            </tr>
+        </table>
+
     </div>
 
 </body>

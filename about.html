@@ -29,12 +29,38 @@
             background-color: #575757;
         }
         .content {
-            max-width: 600px;
+            max-width: 700px;
             margin: auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .business-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .business-card {
+            text-align: center;
+            width: 45%;
+            max-width: 250px;
+        }
+        .business-card img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .business-card img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+        .business-card p {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #555;
         }
     </style>
 </head>
@@ -51,6 +77,19 @@
         <p>Welcome to our Mystery Club! We love solving puzzles, uncovering secrets, and going on fun adventures.</p>
         <p>Anita and Kaira are best friends who share a passion for mystery stories and detective work!</p>
         <p>Join us as we solve exciting mysteries and share our detective tips.</p>
+
+        <!-- Business Cards Section -->
+        <div class="business-cards">
+            <div class="business-card">
+                <img src="anita-business-card.jpg" alt="Anita's Business Card">
+                <p>Anita - The Mastermind</p>
+            </div>
+            <div class="business-card">
+                <img src="kaira-business-card.jpg" alt="Kaira's Business Card">
+                <p>Kaira - The Detective</p>
+            </div>
+        </div>
+
     </div>
 
 </body>

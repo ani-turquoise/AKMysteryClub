@@ -49,16 +49,16 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 15px;
+            gap: 10px;
         }
         .badge {
-            width: 160px;
+            width: 130px; /* Reduced by 20% */
             background: #222;
             color: white;
-            padding: 10px;
-            border-radius: 10px;
+            padding: 8px;
+            border-radius: 8px;
             text-align: center;
-            font-size: 16px;
+            font-size: 14px; /* Reduced text size */
             font-weight: bold;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
             position: relative;
@@ -66,14 +66,14 @@
         }
         .badge::before {
             content: "🔍 Detective";
-            font-size: 12px;
+            font-size: 10px; /* Reduced label size */
             color: #ffdd57;
             position: absolute;
-            top: -10px;
+            top: -8px;
             left: 50%;
             transform: translateX(-50%);
             background: #222;
-            padding: 3px 8px;
+            padding: 2px 6px;
             border-radius: 5px;
             border: 1px solid #ffdd57;
         }
